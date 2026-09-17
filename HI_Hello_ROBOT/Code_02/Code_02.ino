@@ -23,8 +23,8 @@ int distance_01;
 // Front Side Sensor
 // ========================================================
 
-const int trigpin_02 = 4;
-const int echopin_02 = 3;
+const int trigpin_02 = A4;
+const int echopin_02 =A5;
 
 unsigned long duration_02;
 int distance_02;
